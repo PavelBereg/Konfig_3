@@ -1,0 +1,8 @@
+{
+    "define": "(define MAX_CONN 100)",
+    "SERVER": {
+        "HOST": "localhost",
+        "PORT": 5000,
+        "MAX_CONNECTIONS": "!{MAX_CONN}"
+    }
+}
