@@ -1,0 +1,7 @@
+$[
+ TIMEOUT_DEFINE : "(define TIMEOUT 30)",
+ SERVER : $[
+ MAX_CONNECTIONS : 100,
+ TIMEOUT : "!{TIMEOUT}"
+]
+]
