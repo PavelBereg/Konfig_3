@@ -1,0 +1,8 @@
+{
+    "define": "(define MAX_CONN 100)",
+    "TIMEOUT_DEFINE": "(define TIMEOUT 30)",
+    "SERVER": {
+        "MAX_CONNECTIONS": "!{MAX_CONN}",
+        "TIMEOUT": "!{TIMEOUT}"
+    }
+}
